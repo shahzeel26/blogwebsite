@@ -1,0 +1,72 @@
+.contact{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: rgb(126, 183, 236); */
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+  
+}
+.contactTitle{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 10px;
+}
+.content{
+    display: flex;
+    
+}
+.info{
+    margin: 5px;
+    padding: 13px;
+}
+.infobox{
+    margin: 12px;
+    padding: 12px;
+}
+.form{
+    margin: 10px;
+    padding: 17px;
+    padding-left: 53px;
+    border: 1px solid black;
+
+}
+.contactform{
+    margin: 12px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform > label{
+    margin: 10px 0;
+    font-size: larger;
+}
+.contactinfo{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.contactbutton{
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(51, 75, 110);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+}
+::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+}
+.contactinfo:focus{
+    outline: none;
+}
